@@ -1,0 +1,17 @@
+.headder {
+  background-color: #ccc;
+  display: flex;
+}
+.headder div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headder h1 {
+  color: red;
+  font-size: 16px;
+}
+
+.headder a {
+  color: blue;
+}
