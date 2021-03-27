@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill_2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="report-Bill">
+        <div class="Report-header">
+            <img src="./invoice.svg" alt="">
+            <h2>รายงานขออนุมัติวงเงินเฉพาะบิล</h2>
+        </div> <hr>
+        <div class="Home-header">
+            <div class="home-body">
+                <p>หน้าแรก<span> / รายงานขออนุมัติวงเงินเฉพาะบิล </span></p>
+            </div>
+        </div>
+    </div>
+    <div class="NEW-BILL-HEADER">
+
+        <div class="New-bill-header">
+            <div class="new-bill">
+                <p class="red-boder">ระบบขออนุมัติวงเงินเฉพาะบิล</p>
+            </div>
+            <div class="new-bill-1">     
+                <a href="#">[ สร้างเอกสารใหม่ ]</a> 
+            </div>
+        </div>
+
+        <div class="search-header">
+            <div class="row align-items-start box-rows">
+                <div class="col-1">
+                    <p class="red-boder">ค้นหาเลขที่เอกสาร</p>
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text" placeholder="กรอกเลขที่เอกสาร" aria-label="Disabled input example" >
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-danger"><i class="fa fa-search" aria-hidden="true"></i> ค้นหา</button>
+                    <button type="button" class="btn btn-outline-secondary"><i class="fa fa-ban" aria-hidden="true"></i> ยกเลิก</button>
+                </div>
+                <div class="offset-md-4 col-1">
+                    <p class="red-boder">วันที่เอกสาร</p>
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text"disabled >
+                </div>
+            </div>
+
+            <div class="row align-items-start box-rows">
+                <div class="col-1">
+                    <p class="red-boder">ค้นหาลูกค้า</p>
+                </div>
+                <div class="col-2">
+                    <select class="form-select gray"  data-bs-toggle="dropdown" aria-expanded="false" >
+                        <option selected >Please Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="col-1">
+                    <p class="red-boder">บริษัทในเครือ</p>
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text"disabled >
+                </div>
+                <div class="col-1">
+                    <p class="red-boder">พนักงานขาย</p>
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text"disabled >
+                </div>
+                <div class="col-1">
+                    <p class="red-boder">เขตการขาย</p>
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text"disabled >
+                </div>
+            </div>
+
+            <div class="row align-items-start box-rows">
+                <div class="col-1">
+                    <p class="red-boder">วันที่เปิดบัญชี</p>
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text"disabled >
+                </div>
+                <div class="col-1">
+                    <p class="red-boder">เครดิต</p>
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text"disabled >
+                </div>
+                <div class="col-1">
+                    <p class="red-boder box1">เงื่อนไขการชำระเงิน</p>
+                </div>
+                <div class="col-5">
+                    <input class="form-control" type="text"disabled >
+                </div>
+            </div><hr class="hr1">
+
+            <div class="row align-items-start box-rows">
+                <div class="col-1">
+                    <p class="red-boder">ลูกค้าสั่งซื้อมาแล้ว</p>
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text"disabled >
+                </div>
+                <div class="col-1">
+                    <p class="red-boder">บิล</p>
+                </div>
+                <div class="col-1">
+                    <p class="red-boder">วันที่เปิดบิลครั้งแรก</p>
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text"disabled >
+                </div>
+            </div>
+
+            <div class="row align-items-start box-rows">
+                <div class="col-1">
+                    <p class="red-boder box1">มียอดชำระเงินมาแล้ว</p>
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text"disabled >
+                </div>
+                <div class="col-1">
+                    <p class="red-boder">บาท</p>
+                </div>
+                <div class="col-1">
+                    <p class="red-boder">ยอดสั่งซื้อปี2020</p>
+                </div>
+                <div class="off-set-col-1 col-2">
+                    <input class="form-control" type="text"disabled >
+                </div>
+                <div class="offset-md-1 col-1">
+                    <p class="red-boder">ยอดสั่งซื้อปี2021</p>
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text"disabled >
+                </div>
+                <div class="col-1">
+                    <p class="red-boder">บาท</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+        <div class="Unbills">
+            <div class="unbill">
+                <div class="unbill-header">
+                    <p class="red-boder ">บิลที่ยังไม่เรียกเก็บ</p>
+                </div>
+                <div class="unbill-body">
+                    <div class="unbill-grid table">
+                            <div class="grid-item"> <p class="red-boder ">วันที่เกินกำหนด</p></div>
+                            <div class="grid-item"> <p class="red-boder ">จำนวนบิล</p></div>
+                            <div class="grid-item"> <p class="red-boder ">มูลค่า (บาท)</p> </div>
+
+                            <div class="grid-item left"> <p class="red">ยังไม่เกินกำหนด</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+
+                            <div class="grid-item left"> <p class="red">น้อยกว่า 30 วัน</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+
+                            <div class="grid-item left"> <p class="red">31 - 60 วัน</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+
+                            <div class="grid-item left"> <p class="red">61 - 90 วัน</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+
+                            <div class="grid-item left"> <p class="red">91 วันขึ้นไป</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+
+                            <div class="grid-item left"> <p class="red-boder">รวมทั้งหมด</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+                    </div>
+                </div>
+                <div class="link-red pointer"><a href="#">คลิกดูรายละเอียดเพิ่มเติม</a></div>
+            </div>
+
+            <div class="unbill">
+                <div class="unbill-header">
+                    <p class="red-boder ">ใบยืมสินค้าที่ยังไม่ได้คืน</p>
+                </div>
+                <div class="unbill-body">
+                    <div class="unbill-grid table">
+                            <div class="grid-item"> <p class="red-boder ">วันที่เกินกำหนด</p></div>
+                            <div class="grid-item"> <p class="red-boder ">จำนวนบิล</p></div>
+                            <div class="grid-item"> <p class="red-boder ">มูลค่า (บาท)</p> </div>
+
+                            <div class="grid-item left"> <p class="red">ยังไม่เกินกำหนด</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+
+                            <div class="grid-item left"> <p class="red">น้อยกว่า 30 วัน</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+
+                            <div class="grid-item left"> <p class="red">31 - 60 วัน</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+
+                            <div class="grid-item left"> <p class="red">61 - 90 วัน</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+
+                            <div class="grid-item left"> <p class="red">91 วันขึ้นไป</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+
+                            <div class="grid-item left"> <p class="red-boder">รวมทั้งหมด</p></div>
+                            <div class="grid-item right"> <p class="red">-</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p> </div>
+                    </div>
+                </div>
+                <div class="link-red pointer"><a href="#">คลิกดูรายละเอียดเพิ่มเติม</a></div>
+            </div>
+        </div>
+
+        <div class="Unbills">
+            <div class="unbill">
+                <div class="unbill-header">
+                    <p class="red-boder ">ใบสั่งขายที่ยังไม่ส่งสินค้า</p>
+                </div>
+                <div class="unbill-body">
+                    <div class="unbill-grid table">
+                            <div class="grid-item1 left"> <p class="red">จำนวนรายการ</p></div>
+                            <div class="grid-item1 right"> <p class="red">-</p></div>
+                            <div class="grid-item1 left"> <p class="red">รายการ</p> </div>
+
+                            <div class="grid-item1 left"> <p class="red">มูลค่า</p></div>
+                            <div class="grid-item1 right"> <p class="red">0.00</p></div>
+                            <div class="grid-item1 left"> <p class="red">บาท</p> </div>
+                    </div>
+                        <div class="link-red pointer"><a href="#">คลิกดูรายละเอียดเพิ่มเติม</a></div>
+                </div>
+            </div>
+
+            <div class="unbill">
+                <div class="unbill-header">
+                    <p class="red-boder ">ประวัติการคืนสินค้า</p>
+                </div>
+                <div class="unbill-body">
+                    <div class="unbill-grid table">
+                            <div class="grid-item1 left"> <p class="red">จำนวนบิลที่คืน</p></div>
+                            <div class="grid-item1 right"> <p class="red">-</p></div>
+                            <div class="grid-item1 left"> <p class="red">ใบ</p> </div>
+
+                            <div class="grid-item1 left"> <p class="red">มูลค่าเช็คคืนทั้งหมด</p></div>
+                            <div class="grid-item1 right"> <p class="red">0.00</p></div>
+                            <div class="grid-item1 left"> <p class="red">บาท</p> </div>
+                    </div>
+                        <div class="link-red pointer"><a href="#">คลิกดูรายละเอียดเพิ่มเติม</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Unbills">
+            <div class="unbill">
+                <div class="unbill-header">
+                    <p class="red-boder ">รายการรอเช็คขึ้นเงิน</p>
+                </div>
+                <div class="unbill-body">
+                    <div class="unbill-grid table">
+                            <div class="grid-item1 left"> <p class="red">จำนวนเช็ค</p></div>
+                            <div class="grid-item1 right"> <p class="red">-</p></div>
+                            <div class="grid-item1 left"> <p class="red">ใบ</p> </div>
+
+                            <div class="grid-item1 left"> <p class="red">มูลค่า</p></div>
+                            <div class="grid-item1 right"> <p class="red">0.00</p></div>
+                            <div class="grid-item1 left"> <p class="red">บาท</p> </div>
+                    </div>
+                        <div class="link-red pointer"><a href="#">คลิกดูรายละเอียดเพิ่มเติม</a></div>
+                </div>
+            </div>
+
+            <div class="unbill">
+                <div class="unbill-header">
+                    <p class="red-boder ">ประวัติเช็คเด้ง</p>
+                </div>
+                <div class="unbill-body">
+                    <div class="unbill-grid table">
+                            <div class="grid-item1 left"> <p class="red">จำนวนเช็คที่เด้ง</p></div>
+                            <div class="grid-item1 right"> <p class="red">-</p></div>
+                            <div class="grid-item1 left"> <p class="red">ใบ</p> </div>
+
+                            <div class="grid-item1 left"> <p class="red">มูลค่าเช็คคืนทั้งหมด</p></div>
+                            <div class="grid-item1 right"> <p class="red">0.00</p></div>
+                            <div class="grid-item1 left"> <p class="red">บาท</p> </div>
+                    </div>
+                        <div class="link-red pointer"><a href="#">คลิกดูรายละเอียดเพิ่มเติม</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Unbills">
+            <div class="unbill">
+                <div class="unbill-header">
+                    <p class="black-border">หมายเหตุเพิ่มเติม</p>
+                </div>
+                <div class="unbill-body">
+                        <textarea class="form-control text-area" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="unbill">
+                <div class="unbill-header1">
+                    <p class="green-boder">ขออนุมัติวงเงินเฉพาะบิล</p>
+                </div>
+                <div class="unbill-body">
+                    <div class="unbill-grid table1">
+                            <div class="grid-item right"> <p class="red">รายการสั่งซื้อใหม่ครั้งนี้</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p></div>
+                            <div class="grid-item left"> <p class="red">บาท</p> </div>
+
+                            <div class="grid-item right"> <p class="red">วงเงินเครดิตเดิม</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p></div>
+                            <div class="grid-item left"> <p class="red">บาท</p> </div>
+
+                            <div class="grid-item right"> <p class="red">วงเงินเครดิตใหม่</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p></div>
+                            <div class="grid-item left"> <p class="red">บาท</p> </div>
+
+                            <div class="grid-item right"> <p class="red">วงเงินเกินเครดิต</p></div>
+                            <div class="grid-item right"> <p class="red">0.00</p></div>
+                            <div class="grid-item left"> <p class="red">บาท</p> </div>
+                    </div>
+                    <div class="unbill-grid table2">
+                        <div class="grid-item-text-center  right"> <p class="red">ธุรการบันทึกการขออนุมัติ</p></div>
+                        <div class="grid-item-button left">
+                            <button type="button" class="btn btn-danger btn1"><i class="fa fa-floppy-o" aria-hidden="true"></i> บันทึก</button>
+                            <button type="button" class="btn btn-outline-secondary btn1"><i class="fa fa-print" aria-hidden="true"></i> พิมพ์</button>
+                        </div>
+
+                        <div class="grid-item-text-center "> <p class="red">พนักงานธุรการ</p></div>
+                        <div class="grid-item-input"><input class="form-control " type="text" disabled></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Unbills">
+            <div class="manage">
+                <div class="manage-header">
+                    <p class="black-border">ผู้่จัดการฝ่ายขายพิจารณาอนุมัติ</p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="red"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">  ลูกค้ามีปัญหาการคืนสินค้า</p> 
+                    </div>
+                </div><hr>
+                <div class="row">
+                    <div class="col-1">
+                        <p class="red-border"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="manage">
+                <div class="manage-header">
+                    <p class="black-border">ผู้่จัดการฝ่ายบัญชีพิจารณาอนุมัติ</p>
+                </div>
+                
+            </div>
+
+            <div class="manage">
+                <div class="manage-header">
+                    <p class="black-border">CEO พิจารณาอนุมัติ</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+*
+{
+    font-family: 'Mitr', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border-red{
+    border: 1px solid red;
+}
+/* Text setting */
+.gray
+{
+    color: #ccc !important;
+    border: red 1px solid;
+}
+h2
+{
+    color: #444455;
+    padding-top: .5rem;
+}
+hr
+{
+    color: #ccc;
+}
+.hr1 
+{
+    margin: .5rem;
+}
+p
+{
+    color: red;
+
+}
+span
+{
+    color: #ccc;
+}
+.pointer
+{
+    cursor: pointer;
+}
+.New-bill-header a {
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+}
+.red-boder
+{
+    font-weight: 600;
+}
+.grid-item.right p
+{
+    margin-right: 1rem !important;
+}
+.grid-item.left p
+{
+    margin-left: 1rem !important;
+}
+.grid-item1.right p
+{
+    margin-right: 1rem !important;
+}
+.grid-item1.left p
+{
+    margin-left: 1rem !important;
+}
+.link-red a
+{
+    display: flex;
+    justify-content: center;
+    color: red !important;
+    text-decoration: none;
+}
+.unbill-header p.black-border
+{
+    color: black;
+    font-weight: 600;
+}
+.unbill-header1 p.green-boder
+{
+    color: rgb(5, 73, 22) ;
+    font-weight: 600;
+}
+.manage-header p.black-border
+{
+    color: black ;
+    font-weight: 600;
+}
+/* Text setting */
+
+/* Create Box Text */
+.box1
+{
+    width: 150px;
+}
+.right
+{
+    text-align: right !important;
+}
+.left
+{
+    text-align: left !important;
+}
+/* Create Box Text */
+.report-Bill
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.Report-header
+{
+    display: flex;
+}
+.Home-header
+{
+    display: flex;
+    padding: 1px;
+    background: #eee;
+    border-radius: 5px;
+}
+.home-body
+{
+    position: relative;
+    top: .5rem;
+    left: .5rem;
+}
+.NEW-BILL-HEADER
+{
+    border: #eee solid 1px;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    margin: 2px 25px auto;
+}
+.New-bill-header
+{
+    display: flex;
+    width: 100%;
+    background: #eee;   
+}
+.new-bill
+{
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 9px;
+}
+.new-bill-1
+{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.search-header
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 20px;
+}
+.box-rows
+{
+    margin: 0;
+    padding: .5rem;
+}
+
+/* Unbills 1 */
+.Unbills
+{
+    margin: 1rem 1.5rem 0 1.5rem;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.unbill
+{
+    display: flex;
+    width: 49%;
+    flex-direction: column;
+    border: 1px #eee solid;
+    border-radius: 5px;
+}
+.manage
+{
+    display: flex;
+    width: 32%;
+    flex-direction: column;
+    border: 1px #eee solid;
+    border-radius: 5px;
+}
+.manage-header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 5px 5px 0 0;
+}
+.manage p {
+    margin: auto;
+}
+
+.unbill-header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 5px 5px 0 0;
+    
+}
+.unbill-header1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30px;
+    background-color: rgba(228, 252, 215, 0.877);
+    border-radius: 5px 5px 0 0;
+    
+}
+
+.unbill p {
+    margin: auto;
+}
+
+.unbill-body
+{
+    /* margin: 1rem; */padding: 1rem 1rem 0 1rem;
+}
+
+.unbill-grid.table
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.unbill-grid.table1
+{
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr;
+}
+.unbill-grid.table2
+{
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+}
+.grid-item{
+    border: 1px solid #eee;
+    text-align: center;
+}
+.grid-item-input{
+    border: 1px solid #eee;
+    padding: 5px;
+}
+.grid-item-text-center
+{
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.grid-item-text-center p {
+    text-align: right;
+    width: calc(100% - 2rem);
+}
+.grid-item-input input {
+    height: 30px;
+}
+.grid-item-button
+{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #eee;
+    padding: 5px;
+}
+.btn1
+{
+    border: 1px solid #eee;
+    padding: 5px;
+    margin-right: 15px;
+}
+.grid-item1{
+    text-align: center;
+}
+.link-red{
+    margin-bottom: 1rem;
+}
+.text-area
+{
+    background-color: #eee !important;
+    height: 200px;
+}
+/* Unbills 1 */

@@ -159,6 +159,14 @@
     border-radius: 5px;
 }
 
+.manage {
+    border: 1px solid #eee;
+    width: 49%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+
 .unbill-box-header {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
