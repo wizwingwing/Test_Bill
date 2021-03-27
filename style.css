@@ -13,6 +13,10 @@
     font-family: 'Mitr', sans-serif;   
 }
 /* color text */
+.green
+{
+    color: #2a3a08 !important;
+}
 .left {
     margin-left: 5px;
 }
@@ -33,10 +37,21 @@
     margin-top: 15px !important;
 }
 .text-add-width {
-    width: 1000px ;
+    width: 150px ;
 }
 .text-add-weight {
     font-weight: 600;
+}
+.big
+{
+    margin: 5px 0 10px 0;
+    border: none !important;
+
+}
+.text-big
+{
+    font-size: 1.5em;
+    
 }
 /* color text */
 
@@ -230,4 +245,23 @@
 
 .text-left {
     text-align: left;
+}
+.mb{
+    margin: auto;
+    padding: 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bg-grey
+{
+    background: #eee !important;
+    border: none !important;
+    height: 30vh;
+}
+.grid-table4
+{
+    border: 1px solid #eee;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
 }
