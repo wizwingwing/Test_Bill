@@ -12,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+    
     <div class="report-Bill">
         <div class="Report-header">
             <img src="./invoice.svg" alt="">
@@ -358,41 +359,132 @@
         </div>
 
         <div class="Unbills">
+<!-- Manage 1 -->
             <div class="manage">
                 <div class="manage-header">
-                    <p class="black-border">ผู้่จัดการฝ่ายขายพิจารณาอนุมัติ</p>
+                    <p class="black-border">ผู้จัดการฝ่ายขายพิจารณาอนุมัติ</p>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <p class="red"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">  ลูกค้ามีปัญหาการคืนสินค้า</p> 
+                <div class="manage-body">
+                    <div class="row allow">
+                        <div class="col-6   ">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1"><p class="red">อนุมัติ</p></label>
+                        </div>
+                        <div class="col-6   ">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1"><p class="red">ไม่อนุมัติ</p></label>
+                        </div>
                     </div>
-                </div><hr>
-                <div class="row">
-                    <div class="col-1">
-                        <p class="red-border"></p>
+                    <div class="row box  ">
+                        <div class="col-2">
+                            <p class="red-boder">เหตุผล:</p>
+                        </div>
+                        <div class="col-10">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="<i class="wi wi-owm-762"></i>" disabled></textarea>
+                        </div>
+                    </div>
+                    <div class="row box">
+                        <div class="col-2">
+                            <p class="red-boder signal">ลงชื่อ</p>
+                        </div>
+                        <div class="col-10">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" disabled>
+                        </div>
+                    </div>
+                    <div class="row box">
+                        <div class="col-12">
+                            <div class=" btn-center">
+                                <button   button type="button" class="btn btn-danger"><i class="fa fa-floppy-o" aria-hidden="true"></i> บันทึก</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
+<!-- Manage 1 -->
+<!-- Manage 2 -->
             <div class="manage">
                 <div class="manage-header">
-                    <p class="black-border">ผู้่จัดการฝ่ายบัญชีพิจารณาอนุมัติ</p>
+                    <p class="black-border">ผู้จัดการฝ่ายบัญชีพิจารณาอนุมัติ</p>
                 </div>
-                
+                <div class="manage-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label for="flexCheckDefault"><p class="red">ลูกค้าเคยมีปัญหาการคืนสินค้า</p></label>
+                        </div>
+                    </div><hr>
+                    <div class="row allow">
+                        <div class="col-6   ">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1"><p class="red">อนุมัติ</p></label>
+                        </div>
+                        <div class="col-6   ">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1"><p class="red">ไม่อนุมัติ</p></label>
+                        </div>
+                    </div>
+                    <div class="row box  ">
+                        <div class="col-2">
+                            <p class="red-boder">เหตุผล:</p>
+                        </div>
+                        <div class="col-10">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" disabled></textarea>
+                        </div>
+                    </div>
+                    <div class="row box">
+                        <div class="col-2">
+                            <p class="red-boder signal">ลงชื่อ</p>
+                        </div>
+                        <div class="col-10">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" disabled>
+                        </div>
+                    </div>
+                    <div class="row box">
+                        <div class="col-12">
+                            <div class=" btn-center">
+                                <button   button type="button" class="btn btn-danger"><i class="fa fa-floppy-o" aria-hidden="true"></i> บันทึก</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
+<!-- Manage 2 -->
+<!-- Manage 3 -->
             <div class="manage">
                 <div class="manage-header">
                     <p class="black-border">CEO พิจารณาอนุมัติ</p>
                 </div>
-                
+                <div class="manage-body">
+                    <div class="row allow">
+                        <div class="col-6   ">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1"><p class="red">อนุมัติ</p></label>
+                        </div>
+                        <div class="col-6   ">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1"><p class="red">ไม่อนุมัติ</p></label>
+                        </div>
+                    </div><hr>
+                    <div class="offset1">
+                    </div>
+                    <div class="row box">
+                        <div class="row-md-10 offset col-2">
+                            <p class="red-boder signal">ลงชื่อ</p>
+                        </div>
+                        <div class="col-10">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" disabled>
+                        </div>
+                    </div>
+                    <div class="row box">
+                        <div class="col-12">
+                            <div class=" btn-center">
+                                <button   button type="button" class="btn btn-danger"><i class="fa fa-floppy-o" aria-hidden="true"></i> บันทึก</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
+<!-- Manage 3 -->            
         </div>
-
-        
-
-    
-    
 </body>
 </html>

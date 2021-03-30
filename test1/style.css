@@ -169,7 +169,7 @@ span
 /* Unbills 1 */
 .Unbills
 {
-    margin: 1rem 1.5rem 0 1.5rem;
+    margin: 1rem 1.5rem 1rem 1.5rem;
     display:flex;
     justify-content: space-between;
     
@@ -230,7 +230,7 @@ span
 
 .unbill-body
 {
-    /* margin: 1rem; */padding: 1rem 1rem 0 1rem;
+    /* margin: 1rem; */padding: 1rem 1rem 1rem 1rem;
 }
 
 .unbill-grid.table
@@ -295,3 +295,28 @@ span
     height: 200px;
 }
 /* Unbills 1 */
+.btn-center
+{
+    display: flex;
+    justify-content: center;
+}
+.signal
+{
+    margin: 0;
+    padding-left: 1rem;
+}
+.box
+{
+    margin: 0;
+    padding-top: .5rem;
+}
+.manage-body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.offset1
+{
+    height: 10rem;
+}
